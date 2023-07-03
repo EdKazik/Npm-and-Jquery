@@ -1,6 +1,5 @@
 
-$("#btn").click(function (event) {
-    console.log('ERRor', event.target);
+$("#btn").click(() => {
     $(this).prop('disabled', true);
     const newDiv = $("<div id='new_div'></div>").css({ "height": '100px', 'width': '200px', 'border': '8px solid blue', 'background': 'yellow'})
     $(this).before(newDiv);
