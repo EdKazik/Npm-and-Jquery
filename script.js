@@ -8,6 +8,6 @@ $("#btn").click(() => {
     $(new_btn).click(() => {
         $(this).prop('disabled', false);
         newDiv.remove()
-    })
+    });
 });
 
