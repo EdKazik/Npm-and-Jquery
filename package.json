@@ -1,0 +1,16 @@
+{
+  "name": "lesson_17-npm-jquery",
+  "version": "1.0.0",
+  "description": "Homework",
+  "main": "script.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "author": "Eduard",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^8.44.0",
+    "http-server": "^14.1.1",
+    "mkdirp": "^3.0.1"
+  }
+}
